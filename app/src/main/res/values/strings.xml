@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application6</string>
+    <string name="user_name">名字</string>
+    <string name="Info">信息</string>
+    <string name="zan">赞</string>
+    <string name="remarks">评论</string>
+    <string name="share">分享</string>
+    <string name="send">发送</string>
+    <string name="Content">内容</string>
+    <string name="out">退出</string>
+    <string name="login">登陆</string>
 </resources>

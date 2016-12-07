@@ -22,12 +22,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="@string/user_name"
                 android:id="@+id/title_name"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="InfoMation"
+                android:text="@string/Info"
                 android:id="@+id/title_info"
                 />
         </LinearLayout>
@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="left"
+        android:gravity="start"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/content_txt"/>
@@ -51,8 +51,8 @@
             android:layout_weight="1"
             android:layout_height="48dp"
             android:gravity="center"
-            android:text="赞"
-            android:textSize="20dp"
+            android:text="@string/zan"
+            android:textSize="20sp"
             android:id="@+id/id_bottom_like_TxtBtn"
             />
 
@@ -61,8 +61,8 @@
             android:layout_weight="1"
             android:layout_height="48dp"
             android:gravity="center"
-            android:text="评论"
-            android:textSize="20dp"
+            android:text="@string/remarks"
+            android:textSize="20sp"
             android:id="@+id/id_bottom_review_TxtBtn"
             />
 
@@ -71,8 +71,8 @@
             android:layout_weight="1"
             android:layout_height="48dp"
             android:gravity="center"
-            android:text="分享"
-            android:textSize="20dp"
+            android:text="@string/share"
+            android:textSize="20sp"
             android:id="@+id/id_bottom_share_TxtBtn"
             />
     </LinearLayout>
@@ -98,7 +98,7 @@
             android:layout_weight="1"
             android:visibility="gone"
             android:layout_height="wrap_content"
-            android:text="发送"
+            android:text="@string/send"
             />
     </LinearLayout>
 

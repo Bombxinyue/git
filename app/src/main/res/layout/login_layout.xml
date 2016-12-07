@@ -29,7 +29,7 @@
         android:layout_alignBottom="@+id/login"
         android:layout_alignRight="@+id/editText2"
         android:layout_marginRight="21dp"
-        android:text="退出" />
+        android:text="@string/out" />
 
     <EditText
         android:id="@+id/editText2"
@@ -52,7 +52,7 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="22dp"
-        android:text="登陆" />
+        android:text="@string/login" />
 
 
 </RelativeLayout>
